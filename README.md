@@ -12,32 +12,14 @@
 
 ### Selected work
 
-<table>
-  <tr>
-    <td width="40%"><a href="https://github.com/pm2m1/telemed-postgres-backend"><img src="https://github.com/pm2m1/telemed-postgres-backend/raw/main/docs/screenshots/database-erd.jpeg" alt="Telemedicine ER diagram"></a></td>
-    <td>
-      <a href="https://github.com/pm2m1/telemed-postgres-backend"><b>Telemedicine backend</b></a><br>
-      <code>PostgreSQL</code> <code>Spring Boot</code> <code>Docker</code><br><br>
-      PostgreSQL-first backend where GiST exclusion constraints make double-booking impossible under concurrent writes, proven by a two-session race test in CI.
-    </td>
-  </tr>
-  <tr>
-    <td width="40%"><a href="https://github.com/pm2m1/who-wins-the-conflict"><img src="https://github.com/pm2m1/who-wins-the-conflict/raw/main/docs/assets/phase3/phase3_primary_result.png" alt="LLM source-preference result"></a></td>
-    <td>
-      <a href="https://github.com/pm2m1/who-wins-the-conflict"><b>Who Wins the Conflict?</b></a><br>
-      <code>Python</code> <code>LLMs</code> <code>Statistics</code><br><br>
-      Preregistered study across 4 open LLMs. Changing <i>only</i> the source label raised adoption of identical evidence from 58% to 83% (+25 pp, p ≈ 10⁻⁷).
-    </td>
-  </tr>
-  <tr>
-    <td width="40%"><a href="https://github.com/pm2m1/fpga-block-adaptive-canny"><img src="https://github.com/pm2m1/fpga-block-adaptive-canny/raw/main/docs/images/edge_output.jpeg" alt="FPGA edge-detection output"></a></td>
-    <td>
-      <a href="https://github.com/pm2m1/fpga-block-adaptive-canny"><b>Block-adaptive Canny on FPGA</b></a><br>
-      <code>Verilog</code> <code>Artix-7</code> <code>Vivado</code><br><br>
-      Edge detector that closes timing at 100 MHz, with 0 mismatches against a bit-accurate Python model over 307k pixels.
-    </td>
-  </tr>
-</table>
+**[Telemedicine backend](https://github.com/pm2m1/Telemed_sql)** · `PostgreSQL` `Spring Boot` `Docker`
+PostgreSQL-first backend where GiST exclusion constraints make double-booking impossible under concurrent writes, proven by a two-session race test in CI.
+
+**[Who Wins the Conflict?](https://github.com/pm2m1/who-wins-the-conflict)** · `Python` `LLMs` `Statistics`
+Preregistered study across 4 open LLMs. Changing *only* the source label raised adoption of identical evidence from 58% to 83% (+25 pp, p ≈ 10⁻⁷).
+
+**[Block-adaptive Canny on FPGA](https://github.com/pm2m1/fpga-block-adaptive-canny)** · `Verilog` `Artix-7` `Vivado`
+Edge detector that closes timing at 100 MHz, with 0 mismatches against a bit-accurate Python model over 307k pixels.
 
 ### Stack
 
